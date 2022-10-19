@@ -2,7 +2,7 @@ header { text-align: center;}
 nav {background-color: aqua;
 text-align: center;}
 
-#container_principal { width: 60% ;
+#container_principal { width: 60%;
 margin-right:;
 display: flex;
 flex-direction: column;
