@@ -1,6 +1,35 @@
-header { text-align: center;}
-nav {background-color: aqua;
-text-align: center;}
+header{
+    padding-top: 10%;
+}
+.LOGO{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.FLEA{
+    font-size: 54px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+}
+.PROJECT{
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+}
+header h2{
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 130;
+    ;
+}
+.SOSTENIBILIDAD{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+    nav {background-color: aqua;
+         text-align: center;
+}
 
 #container_principal { width: 60%;
 margin-right:;
