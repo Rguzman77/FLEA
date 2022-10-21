@@ -1,6 +1,25 @@
 header{
     padding-top: 10%;
 }
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.017em;
+}
+a{
+    text-decoration: none;
+    color: black
+
+}
+a:hover{
+    background-color: darkgray;
+}
 .LOGO{
     display: flex;
     justify-content: center;
@@ -26,9 +45,6 @@ header h2{
 .SOSTENIBILIDAD{
     padding-left: 2%;
     padding-right: 2%;
-}
-    nav {background-color: aqua;
-         text-align: center;
 }
 
 #container_principal { width: 60%;
