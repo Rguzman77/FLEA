@@ -1,151 +1,161 @@
 /* Header */
-header{
-    padding-top: 16%;
-    height: 32.2em;
-    
+header {
+  padding-top: 16%;
+  height: 32.2em;
 }
 
-section 
-.LOGO{
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
+.LOGO {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-direction: row;
 }
-.FLEA{
-    font-size: 100px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 800;
+.FLEA {
+  font-size: 100px;
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
 }
-.PROJECT{
-    font-family: 'Inter', sans-serif;
-    font-weight: 300;
-    font-size: 32px;
+.PROJECT {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 32px;
 }
 
-header h2{
-    display: flex;
-    justify-content: center;
-    font-family: 'Inter', sans-serif;
-    font-weight: 130;
-    font-size: 48px;
+header h2 {
+  display: flex;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 130;
+  font-size: 48px;
 }
-.SOSTENIBILIDAD{
-    padding-left: 4%;
-    padding-right: 4%;
+.SOSTENIBILIDAD {
+  padding-left: 4%;
+  padding-right: 4%;
 }
 
 /* NavBar */
-nav{
-    padding-top: 6.5%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Livvic';
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 40px;
-    letter-spacing: -0.017em;
+nav {
+  padding-top: 6.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Livvic";
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.017em;
 }
-a{
-    text-decoration: none;
-    color: black;
-    padding-left: 1%;
-    padding-right: 1%;
-    margin: 1%;
-    background-color: #D9D9D9;
-
+a {
+  text-decoration: none;
+  color: black;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin: 1%;
+  background-color: #d9d9d9;
 }
-a:hover{
-    background-color: darkgray;
+a:hover {
+  background-color: darkgray;
 }
-
 
 /* Section Introducción */
-section img{
-    width: 100%;
-    height: auto;
+section img {
+  width: 100%;
+  height: auto;
 }
-.primerTextoDelSection{
-    font-size: 42px;
-    font-family: Inter, sans-serif;
-    font-weight: 280;
-    display: flex;
-    text-align: center;
-    margin: 0%;
+.primerTextoDelSection {
+  font-size: 42px;
+  font-family: Inter, sans-serif;
+  font-weight: 280;
+  display: flex;
+  text-align: center;
+  margin: 0%;
 }
-.segundoTextoDelSection{
-    font-size: 28px;
-    font-family: Inter, sans-serif;
-    font-weight: 280;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    margin: 0%;
+.segundoTextoDelSection {
+  font-size: 28px;
+  font-family: Inter, sans-serif;
+  font-weight: 280;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 0%;
 }
-
 
 /* imgMujer */
-.imgMujer{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 806px;
-    height: 639px;
-} 
-
-
-#container_principal { 
-    width: 60%;
-    margin-right: 1%;
-    display: flex;
-    flex-direction: column;
-    }
-/*titulo*/
-#historia_c{
-    background-image: url("/imgs/historiaBackgroundImg.png");
-    background-size: cover;
-    width: 100%;
-    height: 600px;
-    
+.imgMujer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 806px;
+  height: 639px;
 }
 
-#historia_c h2 { 
-    background-color: white;
-    opacity: 0.5;
-    font-family: Livvic, sans-serif;
-    font-size: 6em;
-    font-weight: 300;
-    
-    padding-top: 0.5em;
-    margin-left: 35%;
-    margin-right:35%;
+#container_principal {
+  width: 60%;
+  margin-right: 1%;
+  display: flex;
+  flex-direction: column;
 }
-
-/*texto*/
+/*Historia*/
 #historia_c {
-    font-family: Jura, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    
-    line-height: 34px;
-    text-align: center;
-    letter-spacing: -0.017em;
-    color: #000000;
-    text-align: center;
-    
+  background-image: url("/imgs/historiaBackgroundImg.png");
+  background-size: cover;
+  width: 100%;
+  height: 600px;
 }
 
-#historia_c p { 
 
-    margin-left: 20% ;
-    margin-right: 20%;
-    height: 100%;
-    overflow: auto;
-    font-size: 2em;
-
-
+p {
+  font-family: Jura, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  background-color: white;
+  opacity: 0.5;
+  width: 1000px;
+  height: 300px;
+  line-height: 34px;
+  text-align: center;
+  letter-spacing: -0.017em;
+  color: #000000;
+  margin-left: 20%;
+  margin-right: 20%;
+  overflow: auto;
+  font-size: 2em;
 }
 
-@media only screen and (max-width: 400px) { 
-    #historia_c  p {font-size : 0.5em;}
+/*Mision*/
+#mision {
+  background-image: url("/imgs/Misionback.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+}
+
+#portafolio_c{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
+}
+
+#ideas {
+  background-image: url("/imgs/Ideaback.jpg");
+  font-family: "Livvic";
+  height: 40em;
+  text-align: center;
+}
+h2 {
+  background-color: white;
+  opacity: 0.5;
+  font-family: Livvic, sans-serif;
+  font-size: 6em;
+  font-weight: 300;
+  padding-top: 0.5em;
+  margin-left: 35%;
+  margin-right: 35%;
+}
+
+@media only screen and (max-width: 400px) {
+  #historia_c p {
+    font-size: 0.5em;
+  }
 }
