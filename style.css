@@ -105,13 +105,16 @@ section img{
     
 }
 
-#Historia{
+#historia_c h2 { 
     background-color: white;
     opacity: 0.5;
     font-family: Livvic, sans-serif;
-    font-size: 96px;
+    font-size: 6em;
     font-weight: 300;
-    justify-content: center;
+    
+    padding-top: 0.5em;
+    margin-left: 35%;
+    margin-right:35%;
 }
 
 /*texto*/
@@ -119,9 +122,26 @@ section img{
     font-family: Jura, sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 29px;
+    
     line-height: 34px;
     text-align: center;
     letter-spacing: -0.017em;
     color: #000000;
+    text-align: center;
+    
+}
+
+#historia_c p { 
+
+    margin-left: 20% ;
+    margin-right: 20%;
+    height: 100%;
+    overflow: auto;
+    font-size: 2em;
+
+
+}
+
+@media only screen and (max-width: 400px) { 
+    #historia_c  p {font-size : 0.5em;}
 }
