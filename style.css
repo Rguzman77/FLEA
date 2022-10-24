@@ -60,7 +60,7 @@ a:hover {
 /* Section Introducción */
 section img {
   width: 100%;
-  height: auto;
+  height: 15em;
 }
 .primerTextoDelSection {
   font-size: 42px;
@@ -69,15 +69,16 @@ section img {
   display: flex;
   text-align: center;
   margin: 0%;
-}
+  }
 .segundoTextoDelSection {
   font-size: 28px;
   font-family: Inter, sans-serif;
   font-weight: 280;
   display: flex;
   text-align: center;
-  justify-content: center;
   margin: 0%;
+  justify-content: center;
+  
 }
 
 /* imgMujer */
@@ -87,6 +88,7 @@ section img {
   margin-right: auto;
   width: 806px;
   height: 639px;
+  height: 55em;
 }
 
 #container_principal {
@@ -104,7 +106,7 @@ section img {
 }
 
 
-p {
+/*p {
   font-family: Jura, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -112,15 +114,15 @@ p {
   opacity: 0.5;
   width: 1000px;
   height: 300px;
+  margin-left: 20%;
+  margin-right: 20%;
   line-height: 34px;
   text-align: center;
   letter-spacing: -0.017em;
   color: #000000;
-  margin-left: 20%;
-  margin-right: 20%;
   overflow: auto;
   font-size: 2em;
-}
+}*/
 
 /*Mision*/
 #mision {
@@ -149,7 +151,7 @@ h2 {
   font-family: Livvic, sans-serif;
   font-size: 6em;
   font-weight: 300;
-  padding-top: 0.5em;
+  padding-top: 20px;
   margin-left: 35%;
   margin-right: 35%;
 }
