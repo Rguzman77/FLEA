@@ -1,0 +1,118 @@
+/* Header */
+header{
+    padding-top: 10%;
+}
+.LOGO{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.FLEA{
+    font-size: 100px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+}
+.PROJECT{
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+}
+
+header h2{
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 130;
+    font-size: 48px;
+}
+.SOSTENIBILIDAD{
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+/* NavBar */
+nav{
+    padding-top: 6.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Livvic';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.017em;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin: 1%;
+    background-color: #D9D9D9;
+
+}
+a:hover{
+    background-color: darkgray;
+}
+
+
+/* Section Introducción */
+section img{
+    width: 100%;
+    height: auto;
+}
+.primerTextoDelSection{
+    font-size: 42px;
+    font-family: Inter, sans-serif;
+    font-weight: 280;
+    display: flex;
+    text-align: center;
+    margin: 0%;
+}
+.segundoTextoDelSection{
+    font-size: 28px;
+    font-family: Inter, sans-serif;
+    font-weight: 280;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0%;
+}
+
+
+/* imgMujer */
+.imgMujer{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 806px;
+    height: 639px;
+} 
+
+
+#container_principal { 
+    width: 60%;
+    margin-right: 1%;
+    display: flex;
+    flex-direction: column;
+    }
+
+#historia_c{
+    background-image: url("/imgs/historiaBackgroundImg.png");
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+}
+
+#Historia{
+    background-color: white;
+    opacity: 0.5;
+    font-family: Livvic, sans-serif;
+    font-size: 96px;
+    font-weight: 300;
+    justify-content: center;
+}
+
+#Historia_c {
+    font-family: Jura, sans-serif;
+}
